@@ -1,0 +1,27 @@
+@import '../../../utils/styles/common.scss';
+
+.product {
+
+    .MuiPaper-root {
+        overflow: visible;
+    }
+
+    .offer-logo {
+        position: absolute;
+        top: 1px;
+        right: 1px;
+        color: $color-promotion;
+    }
+
+    .price {
+        background-color: $color-indigo-dye;
+        color: $color-white;
+        font-weight: bold;
+        padding: 4px 5px;
+        border-radius: 4px;
+    }
+
+    .red-fire {
+        color: $color-error;
+    }
+}

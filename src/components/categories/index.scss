@@ -1,0 +1,16 @@
+@import '../../utils/styles/common.scss';
+
+.tabs {
+
+    .css-1m27246-MuiButtonBase-root-MuiTab-root {
+        color: rgba($color: $color-primary, $alpha: 0.5);
+    }
+
+    .css-1m27246-MuiButtonBase-root-MuiTab-root.Mui-selected {
+        color: $color-primary;
+    }
+
+    .MuiTabs-indicator {
+        background-color: $color-primary;
+    }
+}

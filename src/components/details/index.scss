@@ -1,0 +1,49 @@
+@import '../../utils/styles/common.scss';
+
+.product-details {
+    position: relative;
+
+    .MuiPaper-root {
+        height: 80%;
+        border-bottom-left-radius: 17px;
+        border-bottom-right-radius: 17px;
+    }
+
+    img {
+        height: 40%;
+        width: auto;
+        object-fit: cover;
+        border-bottom-left-radius: 17px;
+        border-bottom-right-radius: 17px;
+    }
+
+    .offer-logo-label {
+        position: absolute;
+        top: 2rem;
+        right: 0;
+        padding: 0.5rem 1rem;
+        background-color: $color-promotion;
+        color: white;
+        font-weight: bold;
+        border-top-left-radius: 17px;
+        border-bottom-left-radius: 17px;
+    }
+
+    .price {
+        background-color: $color-indigo-dye;
+        padding: 1rem 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .price-text {
+            color: $color-white;
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+    }
+
+    .red-fire {
+        color: $color-error;
+    }
+}

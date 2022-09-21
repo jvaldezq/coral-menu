@@ -1,0 +1,33 @@
+$color-white: #ffffff;
+$color-black: #000000;
+$color-primary: #2A1F2D;
+$color-secondary: #5B6C5D;
+$color-third: #56E39F;
+$color-error: rgb(211, 47, 47);
+$color-success: rgb(46, 125, 50);
+$color-warning: rgb(237, 108, 2);
+$color-background: #F1F2EE;
+$color-promotion: #FFDB23;
+$color-blue: rgb(25, 118, 210);
+$color-deep-saffron: #FA9F42;
+$color-indigo-dye: #254E70;
+
+
+
+@mixin phone {
+    @media only screen and (min-width: 600px) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media only screen and (min-width: 768px) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media only screen and (min-width: 1200px) {
+        @content;
+    }
+}

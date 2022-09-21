@@ -1,0 +1,287 @@
+{
+    "breakfast": {
+        "products": [
+            {
+                "id": 4,
+                "name": "Chilaquiles Rojos",
+                "price": 5100,
+                "description": "Deliciosos Totopos fritos con pollo y salsa mexicana roja",
+                "ingredients": [
+                    "Tortilla de Maíz",
+                    "Aceite",
+                    "Tomates Rojos",
+                    "Chiles serranos",
+                    "Cebolla",
+                    "Ajos",
+                    "Pollo",
+                    "Queso"
+                ],
+                "image": "chilaquiles.jpg",
+                "spicy": 2,
+                "promo": true
+            },
+            {
+                "id": 1,
+                "name": "Pancakes",
+                "price": 3500,
+                "description": "Hot Pancakes con miel de maple",
+                "ingredients": [
+                    "Leche",
+                    "Azucar",
+                    "Huevos",
+                    "Harina",
+                    "Mantequilla",
+                    "Polvo de hornear",
+                    "Sal"
+                ],
+                "image": "pankes.jpg",
+                "spicy": 0,
+                "promo": false
+            },
+            {
+                "id": 2,
+                "name": "Parfait",
+                "price": 4000,
+                "description": "Delicioso Partait de yougurt griego y frutas de temporada",
+                "ingredients": [
+                    "Jugo de Maracuyá",
+                    "Yogurt Griego",
+                    "Fresas"
+                ],
+                "image": "parfait.jpg",
+                "spicy": 0,
+                "promo": false
+            },
+            {
+                "id": 3,
+                "name": "Tostadas Francesas",
+                "price": 7300,
+                "description": "Tostadas Francesas servidas con cafe",
+                "ingredients": [
+                    "Huevos",
+                    "Pan de masa madre",
+                    "Vainilla",
+                    "Aguacate"
+                ],
+                "image": "tostadas.jpg",
+                "spicy": 0,
+                "promo": false
+            }
+        ]
+    },
+    "lunch": {
+        "products": [
+            {
+                "id": 5,
+                "name": "Ensalada César",
+                "price": 6500,
+                "description": "Ensalada Cesar servida con 3 tajadas de pan de masa madre.",
+                "ingredients": [
+                    "Lechuga",
+                    "Queso Parmesano",
+                    "Vinagre de manzana",
+                    "Aceite de oliva",
+                    "Zumo de limón",
+                    "Yema de huevo"
+                ],
+                "image": "salad.jpg",
+                "spicy": 0,
+                "promo": true
+            },
+            {
+                "id": 6,
+                "name": "Tacos de Birria",
+                "price": 7500,
+                "description": "Tacos de birria servidos con consome de birria",
+                "ingredients": [
+                    "Carne de res",
+                    "Chiles Guajillos",
+                    "Chiles Pasillas",
+                    "Chiles de Árbol",
+                    "Ajo",
+                    "Cebollla",
+                    "Hojas de Laurel"
+                ],
+                "image": "tacos.jpg",
+                "spicy": 1,
+                "promo": true
+            },
+            {
+                "id": 7,
+                "name": "Pizza Peperoni Grande",
+                "price": 12000,
+                "description": "Pizza Peperoni servida con salsa de pizza por aparte.",
+                "ingredients": [
+                    "Pepperoni",
+                    "Salami",
+                    "Queso Mozzarella",
+                    "Tomate",
+                    "Queso Parmesano",
+                    "Orégano",
+                    "Albahaca"
+                ],
+                "image": "peperoni.jpg",
+                "spicy": 0,
+                "promo": false
+            },
+            {
+                "id": 8,
+                "name": "Hamburguesa",
+                "price": 8700,
+                "description": "Hamburguesa con carne Angus, servido con papas a la francesa.",
+                "ingredients": [
+                    "Carne Angus (Res)",
+                    "Cebolla",
+                    "Sal",
+                    "Pimienta",
+                    "Tomate",
+                    "Queso",
+                    "Tocineta"
+                ],
+                "image": "hamburguesa.jpg",
+                "spicy": 1,
+                "promo": false
+            }
+        ]
+    },
+    "dinner": {
+        "products": [
+            {
+                "id": 6,
+                "name": "Tacos de Birria",
+                "price": 7500,
+                "description": "Tacos de birria servidos con consome de birria",
+                "ingredients": [
+                    "Carne de res",
+                    "Chiles Guajillos",
+                    "Chiles Pasillas",
+                    "Chiles de Árbol",
+                    "Ajo",
+                    "Cebollla",
+                    "Hojas de Laurel"
+                ],
+                "image": "tacos.jpg",
+                "spicy": 1,
+                "promo": true
+            },
+            {
+                "id": 5,
+                "name": "Ensalada César",
+                "price": 6500,
+                "description": "Ensalada Cesar servida con 3 tajadas de pan de masa madre.",
+                "ingredients": [
+                    "Lechuga",
+                    "Queso Parmesano",
+                    "Vinagre de manzana",
+                    "Aceite de oliva",
+                    "Zumo de limón",
+                    "Yema de huevo"
+                ],
+                "image": "salad.jpg",
+                "spicy": 0,
+                "promo": false
+            },
+            {
+                "id": 8,
+                "name": "Hamburguesa",
+                "price": 8700,
+                "description": "Hamburguesa con carne Angus, servido con papas a la francesa.",
+                "ingredients": [
+                    "Carne Angus (Res)",
+                    "Cebolla",
+                    "Sal",
+                    "Pimienta",
+                    "Tomate",
+                    "Queso",
+                    "Tocineta"
+                ],
+                "image": "hamburguesa.jpg",
+                "spicy": 1,
+                "promo": false
+            },
+            {
+                "id": 7,
+                "name": "Pizza Peperoni Grande",
+                "price": 12000,
+                "description": "Pizza Peperoni servida con salsa de pizza por aparte.",
+                "ingredients": [
+                    "Pepperoni",
+                    "Salami",
+                    "Queso Mozzarella",
+                    "Tomate",
+                    "Queso Parmesano",
+                    "Orégano",
+                    "Albahaca"
+                ],
+                "image": "peperoni.jpg",
+                "spicy": 0,
+                "promo": false
+            }
+        ]
+    },
+    "kids": {
+        "products": [
+            {
+                "id": 7,
+                "name": "Nuggets de pollo",
+                "price": 7500,
+                "description": "Nuggests de pechuga de pollo con papas a la francesa.",
+                "ingredients": [
+                    "Pechugas de pollo",
+                    "Sal",
+                    "Harina Trigo",
+                    "Pan rallado",
+                    "Aceite",
+                    "Queso Crema"
+                ],
+                "image": "nuggets.jpg",
+                "spicy": 0,
+                "promo": false
+            }
+        ]
+    },
+    "dessert": {
+        "products": [
+            {
+                "id": 7,
+                "name": "Queque Chocolate",
+                "price": 2500,
+                "description": "Queque de chocolate de la casa",
+                "ingredients": [
+                    "Harina",
+                    "Azúcar",
+                    "Sal",
+                    "Aceite",
+                    "Leche",
+                    "Huevos",
+                    "Vainilla",
+                    "Chocolate"
+                ],
+                "image": "chocolate-cake.jpg",
+                "spicy": 0,
+                "promo": true
+            },
+            {
+                "id": 7,
+                "name": "Tres Leches",
+                "price": 2500,
+                "description": "Tres leches de la casa",
+                "ingredients": [
+                    "Harina",
+                    "Azúcar",
+                    "Sal",
+                    "Aceite",
+                    "Leche",
+                    "Huevos",
+                    "Vainilla",
+                    "Leche condensada",
+                    "Leche evaporada",
+                    "Crema Dulce"
+                ],
+                "image": "tres-leches.jpg",
+                "spicy": 0,
+                "promo": true
+            }
+        ]
+    }
+}
